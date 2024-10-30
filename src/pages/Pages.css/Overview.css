@@ -1,0 +1,59 @@
+.highP {
+  background-color: red !important;
+  color: white !important;
+}
+
+.normal {
+  background-color: #fdf920 !important;
+  color: black !important;
+}
+
+.green {
+  background-color: #8bc34a !important;
+  color: white !important;
+}
+
+.pie {
+  width: fit-content !important;
+  height: fit-content !important;
+  right: 0 !important;
+  display: flex !important;
+}
+
+.tableP {
+  width: fit-content;
+}
+
+.image-table {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.image-table img {
+  margin-right: 20px;
+}
+
+.tablePP {
+  width: fit-content;
+}
+
+.orange {
+  background-color: #f49a09 !important;
+}
+
+.orange-blue {
+  background-image: linear-gradient(to right, #1d850f 10%, #de0d22 80%);
+  color: white !important;
+}
+
+.newRed {
+  background-color: rgba(242, 54, 37, 0.865) !important;
+}
+
+.image-table-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  float: left;
+}

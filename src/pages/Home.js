@@ -1,12 +1,12 @@
 import React from "react";
-import "./Home.css";
+import "../pages/Pages.css/Home.css";
 import Card from "react-bootstrap/Card";
 
 export default function Home() {
   return (
     <div>
-      <Card bg="success" text="white" style={{ width: "30rem" }}>
-        <Card.Header>My home page</Card.Header>
+      <Card bg="success" text="white" style={{ width: "50rem" }}>
+        <Card.Header>Home</Card.Header>
         <Card.Body>
           <Card.Title>intro </Card.Title>
           <Card.Text>
