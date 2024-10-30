@@ -54,7 +54,7 @@ export default function Navbar() {
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-divider"></a>
+                    <a className="dropdown-divider">href="#"</a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="/cpd-otj-log">
