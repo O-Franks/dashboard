@@ -10,7 +10,7 @@ import Pie from "../Img/Pie.png";
 export default function Overview() {
   return (
     <div>
-      <Card bg="info" text="white">
+      <Card style={{ backgroundColor: "#A5D6A7" }} text="white">
         <Card.Header>Overview</Card.Header>
         <Card.Body>
           <Card.Title>intro </Card.Title>

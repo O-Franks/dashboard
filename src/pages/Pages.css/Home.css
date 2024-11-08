@@ -1,3 +1,8 @@
 background {
   background-color: rgb(37, 131, 37);
 }
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
