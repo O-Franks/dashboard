@@ -30,7 +30,7 @@ export default function Home() {
 
   return (
     <div>
-      <Card text="white" style={{ backgroundColor: "#A5D6A7" }}>
+      <Card text="white" style={{ backgroundColor: "#A5D6A7", height: 1000 }}>
         <Card.Header>Home</Card.Header>
         <Card.Body>
           <Card.Title>intro </Card.Title>
