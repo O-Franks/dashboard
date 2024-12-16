@@ -1,13 +1,12 @@
 import React from "react";
-
 import "../pages/Pages.css/Overview.css";
 import Card from "react-bootstrap/Card";
 import Table from "react-bootstrap/Table";
 import Pie from "../Img/Pie.png";
-// import KSB from "..//Img/KSB.png";
-// import Portfolio from "../Img/Portfolio.png";
+import Messages from "./Messages";
 
-export default function Overview() {
+export default function Overview({}) {
+  const { messageList } = Messages;
   return (
     <div>
       <Card style={{ backgroundColor: "#A5D6A7" }} text="white">
@@ -23,7 +22,9 @@ export default function Overview() {
             </thead>
             <tbody>
               <tr>
-                <td>Complete OTJ KSB mapping for July/August</td>
+                <td>
+                  <p>{messageList}</p>
+                </td>
                 <td className="highP">High</td>
               </tr>
               <tr>

@@ -28,3 +28,14 @@
 .submit:hover {
   background-color: #45a049; /* Darker green on hover */
 }
+
+.Message-board {
+  background-color: #a7a5d6;
+  width: 600px;
+  height: 300px;
+  border: 2px solid #333; /* Thicker, darker border */
+  border-radius: 10px; /* More rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-left: 1%;
+  margin-top: 5%;
+}
