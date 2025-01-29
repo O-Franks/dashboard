@@ -6,16 +6,6 @@ export default function Home() {
   const [readyCount, setReadyCount] = useState(0);
   const [joke, setJoke] = useState("");
 
-  function loggedIn() {
-    setReadyCount((count) => count + 1);
-    alert("You're now logged in, Welcome!");
-  }
-
-  function loggedOut() {
-    setReadyCount((count) => count - 1);
-    alert("You're now logged out, Goodbye!");
-  }
-
   const api = async () => {
     const data = await fetch(
       "https://official-joke-api.appspot.com/random_joke"
@@ -30,32 +20,24 @@ export default function Home() {
 
   return (
     <div>
-      <Card text="white" style={{ backgroundColor: "#A5D6A7", height: 1000 }}>
+      <Card text="black" style={{ backgroundColor: "#f4f4f9", height: 1000 }}>
         <Card.Header>Home</Card.Header>
-        <Card.Body>
-          <Card.Title>intro </Card.Title>
-          <Card.Text>Hello and Welcome to my Apprentice Dashboard.</Card.Text>
-          <div className="buttons">
-            <button type="buttton" class="btn btn-secondary" onClick={loggedIn}>
-              sign in
-            </button>
+        <div className="home-container">
+          <header className="home-header">
+            <h1>My Apprentice Dashboard</h1>
+          </header>
+          <main className="home-main">
+            <p>
+              Hello, my name is Oliver Franks. I am a aspiring software
+              Developer. Welcome to my personal website where you can learn more
+              About me and my work.
+            </p>
+          </main>
 
-            <button
-              type="buttton"
-              class="btn btn-secondary"
-              onClick={loggedOut}
-            >
-              sign out
-            </button>
-          </div>
-          <Card.Text>The number of people signed are {readyCount}</Card.Text>
-          <Card.Text>Here is a joke for you: {joke}</Card.Text>
+          <button className="button-71">Click for more info</button>
+        </div>
 
-          <Card.Img
-            style={{ width: 500 }}
-            src="https://static.vecteezy.com/system/resources/previews/010/925/820/non_2x/colorful-welcome-design-template-free-vector.jpg"
-          />
-        </Card.Body>
+        <Card.Body></Card.Body>
       </Card>
     </div>
   );

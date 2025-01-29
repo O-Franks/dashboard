@@ -1,7 +1,6 @@
 .border {
   background-color: #a7a5d6;
   width: 600px;
-  height: 300px;
   border: 2px solid #333; /* Thicker, darker border */
   border-radius: 10px; /* More rounded corners */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -13,29 +12,24 @@
   margin-left: 5%;
 }
 
-.submit {
-  background-color: #f74717; /* Green */
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-  margin-top: 20px;
-  margin-left: 5%;
+.message-container {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 3rem;
 }
 
-.submit:hover {
-  background-color: #45a049; /* Darker green on hover */
+.data-form {
+  flex: 1;
+  margin-right: 20px;
 }
 
-.Message-board {
-  background-color: #a7a5d6;
-  width: 600px;
-  height: 300px;
-  border: 2px solid #333; /* Thicker, darker border */
-  border-radius: 10px; /* More rounded corners */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  margin-left: 1%;
-  margin-top: 5%;
+.user-form {
+  flex: 1;
+}
+
+.text {
+  position: relative;
+  padding-left: 13rem;
+  padding-top: 3rem;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }

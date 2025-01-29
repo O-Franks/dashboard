@@ -9,10 +9,10 @@ export default function Overview({}) {
   const { messageList } = Messages;
   return (
     <div>
-      <Card style={{ backgroundColor: "#A5D6A7" }} text="white">
+      <Card style={{ backgroundColor: "#f4f4f9" }} text="black">
         <Card.Header>Overview</Card.Header>
         <Card.Body>
-          <Card.Title>intro </Card.Title>
+          <Card.Title>introduction </Card.Title>
           <Table striped bordered hover>
             <thead>
               <tr>
